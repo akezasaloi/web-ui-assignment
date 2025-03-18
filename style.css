@@ -293,5 +293,9 @@ display: flex;
     color: #f27602;
 }
 .testimonials{
+    
+}
+.testimony-content{
+    text-align: center;
     display: flex;
 }

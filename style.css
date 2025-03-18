@@ -1,0 +1,134 @@
+body{
+    @media screen and (min-width: 2304px) and (max-width: 1440px){
+        display: flex;
+    }
+    overflow-x: hidden;
+    margin: 0%;
+}
+header{
+    background-color: rgb(46, 44, 44);
+    text-align: center;
+    padding: 15px 0 15px 0px;
+    width: 100%;
+}
+.fa-circle-check {
+    color: #FFD43B;
+}
+.fa-envelope-open-text {
+    color: #3e77a3;
+    font-size: 25px;
+}
+#estimate-link{
+color: rgb(199, 198, 198);
+text-align: center;
+a{
+color: white;
+}
+}
+.contact-info-tool-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.header-email-info{
+    padding-left: 150px;
+    padding-top:20px;
+display: flex;
+gap: 30px;
+    #email-caption{
+color: rgb(117, 114, 114);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.header-contact-info{
+    padding-right: 150px;
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+
+#phone-caption{
+    color: rgb(117, 114, 114);
+}
+}
+.fa-phone-volume{
+    font-size: 22px;
+}
+.navigation-bar{
+padding: 0 200px 0 200px;
+text-align: center;
+}
+nav{
+    justify-content: center;
+    
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+#home{
+    a{color: orange;}
+}
+.moving-family-image{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.family-image{
+    width: 100%;
+    object-fit: fill;
+}
+.centered {
+    text-align: center;
+    align-items: baseline;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    bottom: 1%;
+    .moving-family-heading{
+        display: flex;
+        gap: 40px;
+    }
+    #get-started{
+        color: white;
+        background-color: orange;
+        border: orange solid 25px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    
+  }
+  .about-us-content{
+    padding-top: 7%;
+    padding-left: 7%;
+    display: flex;
+    gap: 100px;
+
+    a{
+        color: orange;
+    }
+  }
+.empty-box{
+    border: 10px solid blue;
+    margin: 5%;
+    padding: 200px;
+    background-color: transparent;
+    
+}

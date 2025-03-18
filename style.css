@@ -269,8 +269,35 @@ display: flex;
     }
 
 }
-.image-of-movers{
-    
+#subscribe-now{
+    background-color: orange;
+    color: white;
+    padding: 1%;
+    border: none;
+}
+.email-and-button{
+    gap:10%;
+    padding-bottom: 2%;
+}
+.news-updates{
+    text-align: center;
+    p{
+        color: orange;
+    }
+    #join-for-new-updates{
+        color: black;
+        font-size: 40px;
+    }
+}
+.news-and-articles{
+    text-align: center;
+    a{
+        color: orange;
+    }
+}
+.articles{
+    text-align: center;
+    display: flex;
 }
 .movers-right-section{
     text-align: justify;
@@ -340,4 +367,41 @@ form{
     span{
         font-size: 70%;
     }
+}
+.discover-more{
+    background-color: orange;
+    display:flex;
+    gap: 200px;
+    padding: 3%;
+    text-align: center;
+  
+    p{
+        margin-left: 15%;
+        color: white;
+    }
+    #discover-more-button{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 1%;
+    }
+}
+.footer-content{
+    padding: 3%;
+    justify-content: center;
+    display: flex;
+    gap: 200px;
+    background-color: black;
+    color: white;
+    p{
+        padding-left: 10%;
+    }
+}
+.footer-icons{
+gap: 700px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 0%;
 }

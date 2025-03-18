@@ -199,4 +199,88 @@ display: flex;
     background-color: white;
     box-shadow: 1px  white;
 }
+.fa-play{
+    color:white;
+    border: orange solid;
+    align-items: center;
+    background-color: orange;
+    height: 3%;
+    padding: 20px;
+    border-radius: 100%;
+}
+.packing-room-advert{
+    border: 30px solid blue;
+    background-color: blue;
+    color: white;
+    box-shadow: 1px  white;
+    width:20%;
+    #advert-content{
+        width:40%;
+        border: 30px solid white;
+        background-color: white;
+        box-shadow: 1px  white;
+        color:black;
+        a{
+            color: orange;
+        }
+    }
+}
+.why-choose-riaad{
+    display: flex;
+    gap:200px;
 
+    #donate-button-one{
+        display: flex;
+        border: 1px beige;
+        padding:10px;
+        width: 75%;
+        margin-bottom: 1%;
+        
+    }
+    #donate-button-two{
+        display: flex;
+        border: 1px beige;
+        padding:10px;
+        width: 75%;
+        margin-bottom: 1%;
+        
+    }
+    #donate-button-three{
+        display: flex;
+        border: 1px beige;
+        padding:10px;
+        width: 75%;
+        
+    }
+}
+.dont-hesitate-to-call-us{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    a{
+        color: orange;
+    }
+}
+.movers-form{
+    text-align: center;
+    .form-caption{
+        padding-left: 36%;
+        display: flex;
+    }
+
+}
+
+.about-us-bottom-section{
+    display: flex;
+    gap:50px;
+    padding-top: 15%;
+    .riaad-launch-year{
+        padding-top: 5%;
+
+        p{
+            margin-top: 1%;
+            font-size: 40px;
+        }
+    }
+
+}

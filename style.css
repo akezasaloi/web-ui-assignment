@@ -269,7 +269,6 @@ display: flex;
     }
 
 }
-
 .about-us-bottom-section{
     display: flex;
     gap:50px;
@@ -283,4 +282,16 @@ display: flex;
         }
     }
 
+}
+.fa-chevron-left{
+    color: #b7b9bd;
+}
+.fa-chevron-right{
+    color: #b7b9bd;
+}
+.fa-twitter{
+    color: #f27602;
+}
+.testimonials{
+    display: flex;
 }

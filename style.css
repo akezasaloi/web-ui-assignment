@@ -269,6 +269,26 @@ display: flex;
     }
 
 }
+.image-of-movers{
+    
+}
+.movers-right-section{
+    text-align: justify;
+    background-color:orange;
+    padding:3%;
+    color:white;
+}
+form{
+    display: flex;
+    text-align: justify;
+    gap:5%;
+    background-color: blue;
+    padding:3%;
+    #date{
+        width:180px;
+    }
+
+}
 .about-us-bottom-section{
     display: flex;
     gap:50px;
@@ -293,9 +313,31 @@ display: flex;
     color: #f27602;
 }
 .testimonials{
-    
+    padding-left: 10%;
+    padding-top: 5%;
+    .testimony-title{
+     text-align: center;
+     padding-right: 17%;
+     p{
+        font-size: 13px;
+        color: orange;
+     }
+     h4{
+        font-size: 35px;
+     }
+    }
 }
 .testimony-content{
     text-align: center;
+    padding-left: 10%;
+    gap: 100px;
     display: flex;
+    line-height: 2em;
+    #christine-rose{
+     font-size:100%;
+     color: orange;
+    }
+    span{
+        font-size: 70%;
+    }
 }

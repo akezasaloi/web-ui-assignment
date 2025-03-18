@@ -132,3 +132,71 @@ nav ul li a {
     background-color: transparent;
     
 }
+.logo-ipsum{
+    padding-top: 190px;
+    padding-left: 80px;
+display: flex;
+}
+.our-services{
+    padding-left: 80px;
+    text-align: center;
+    a{
+        color: orange;
+    }
+    h2{
+        font-size: 50px;
+    }
+}
+.what-we-do{
+    background-color: rgb(234, 236, 236);
+}
+.services-posters{
+    text-align: center;
+    padding-left: 520px;
+    gap: 90px;
+    display: flex;
+    #read-more{
+        color: orange;
+    } 
+    margin: auto;
+}
+.helping-you-every-step-of-the-way{
+    display: flex;
+    padding-left: 90px;
+    padding-top: 50px; 
+    padding-bottom: 10px;
+    gap: 20px;
+    #link-caption{
+        padding-left: 37%;
+    }
+    #what-we-do-image{
+    
+        width: 9%;
+        height: 5%;
+    }
+    #services-caption{
+        font-size: 30px;
+    }
+}
+.packing{
+    border: 30px solid white;
+    background-color: white;
+    box-shadow: 1px  white;
+}
+.storage{
+    border: 30px solid blue;
+    background-color: blue;
+    color: white;
+    box-shadow: 1px  white;
+}
+.transport{
+    border: 30px solid white;
+    background-color: white;
+    box-shadow: 1px  white;
+}
+.insurance{
+    border: 30px solid white;
+    background-color: white;
+    box-shadow: 1px  white;
+}
+
